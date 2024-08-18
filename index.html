@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/colores.css">
+    <link rel="stylesheet" href="css/hovers.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Saul Rojas Software Engineering</title>
+</head>
+<body>
+    <!-- Header con Navbar -->
+    <header class="sticky-top pb-3 shadow-sm">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <img class="img-fluid" src="img/logo.png" alt="Logo" style="width: 120px;">
+
+                <!-- Botón de menú para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTabs" aria-controls="navbarTabs" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Tabs de navegación -->
+                <div class="collapse navbar-collapse" id="navbarTabs">
+                    <ul class="nav nav-pills ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#sobreMi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#trabajos">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#conocimientos">Conocimientos</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido de las Pestañas -->
+    <div class="tab-content container mt-3">
+        <!-- Sección Sobre Mí -->
+        <div class="content-page tab-pane fade show active" id="sobreMi">
+            <section class="d-flex flex-row flex-grow-1 mt-0">
+                <div data-aos="zoom-in" data-aos="fade-right" class="w-50 m-4">
+                    <div class="text-center">
+                        <h1>Sobre Mí</h1>
+                    </div>
+                    <p>Soy un estudiante de desarrollo backend con una pasión por crear sistemas eficientes y escalables. Aunque aún estoy completando mi carrera, he adquirido experiencia práctica en lenguajes como Python, Java y SQL. Me enfoco en desarrollar la lógica del servidor y gestionar bases de datos para asegurar que las aplicaciones funcionen de manera óptima. Estoy en constante aprendizaje y busco siempre mejorar mis habilidades mientras asumo nuevos desafíos en el mundo del desarrollo web.</p>
+                </div>
+                <div data-aos="zoom-in-up" class="w-50">
+                    <img class="img-fluid" src="img/sobreMi.png" alt="Sobre mí">
+                </div>
+            </section>
+            <section class="d-flex flex-row">
+                <!-- Sección Visión -->
+                <section data-aos="flip-left" class="bg-secondary-subtle border rounded d-flex flex-column flex-grow-1 w-50">
+                    <div class="m-4">
+                        <div class="text-center">
+                            <h1>Visión</h1>
+                        </div>
+                        <p>Convertirme en un profesional altamente capacitado en ingeniería de software, capaz de desarrollar soluciones tecnológicas innovadoras que faciliten la vida de las personas y potencien el crecimiento de las empresas. Aspiro a ser un contribuyente clave en proyectos que transformen ideas en realidades digitales, con un enfoque en la calidad, la eficiencia y la sostenibilidad.</p>
+                    </div>
+                </section>
+
+                <!-- Sección Misión -->
+                <section data-aos="flip-right" class="bg-secondary-subtle border d-flex flex-column flex-grow-1 w-50">
+                    <div class="m-4">
+                        <div class="text-center">
+                            <h1>Misión</h1>
+                        </div>
+                        <p>Desarrollar mis habilidades y conocimientos en ingeniería de software mediante la participación en proyectos desafiantes y la colaboración con equipos multidisciplinarios. Mi misión es aprender continuamente, aplicar los principios de buenas prácticas de desarrollo y contribuir de manera significativa a proyectos que buscan resolver problemas reales mediante la tecnología, mientras construyo una base sólida para mi futura carrera profesional.</p>
+                    </div>
+                </section>
+            </section>
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <a href="documento/currículum.pdf" target="_blank" download="curriculum.pdf" class="btn btn-primary btn-lg">
+                            <i class="fas fa-download"></i> Descargar Currículum
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Trabajos -->
+        <div class="content-page tab-pane fade" id="trabajos">
+            <section class="p-3">
+                <div class="text-center">
+                    <h2>Trabajos</h2>
+                </div>
+                <p class="p-2">Durante mi formación en ingeniería en software, he tenido la oportunidad de trabajar en proyectos tanto académicos como profesionales. Uno de mis principales logros ha sido colaborar con una empresa PYME en el desarrollo de una solución tecnológica específica. Debido a acuerdos contractuales, no puedo revelar detalles sobre este proyecto, pero fue una experiencia enriquecedora que me permitió aplicar mis conocimientos en un entorno real y profesional.
+
+                Además de este trabajo, he desarrollado varios proyectos universitarios que me han permitido explorar diversas áreas del desarrollo de software, desde la creación de aplicaciones web hasta la gestión de bases de datos y la implementación de algoritmos. Estos proyectos han sido fundamentales para fortalecer mis habilidades técnicas y mi capacidad para resolver problemas complejos.</p>
+            </section>
+            <!-- Carrusel -->
+            <section>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/trabajo1.png" class="d-block w-100" alt="Trabajo 1">
+                            <div class="bg-black rounded bg-opacity-50 carousel-caption d-none d-md-block">
+                                <h5>Sitio Web Para un negocio</h5>
+                                <p>Trabajo solicitado para un emprendimiento PYME.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sección Conocimientos -->
+        <div class="content-page tab-pane fade" id="conocimientos">
+            <section>
+                <div>
+                    <h2>Formación Académica</h2>
+                </div>
+                <p>Actualmente, estoy cursando la carrera de Ingeniería en Software, donde he adquirido una sólida base en los principios y prácticas del desarrollo de software. A lo largo de mi formación, he explorado diversas áreas como la programación en múltiples lenguajes, el diseño de bases de datos, y la gestión de proyectos de software.
+
+                Estos estudios me han permitido desarrollar un enfoque estructurado y eficiente para la resolución de problemas, así como una comprensión profunda de las tecnologías modernas que impulsan el desarrollo web y el backend. Mi compromiso con el aprendizaje continuo me ha llevado a buscar siempre nuevos desafíos y oportunidades para aplicar y expandir mis conocimientos.</p>
+            </section>
+            <section class="container mt-5">
+                <div class="row">
+                    <!-- Tarjetas de Conocimientos -->
+                    <div class="col-md-4 mb-4">
+                        <div data-aos="zoom-out-right" class="p-4 bg-light border rounded text-center">
+                            <h2>PHP</h2>
+                            <img class="img-fluid w-50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/640px-PHP-logo.svg.png" alt="PHP">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-light border rounded text-center">
+                            <h2>Java</h2>
+                            <img class="img-fluid w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSizKtBBqNFD61aWIsR8CO00WnJeLPVCAIq-A&s" alt="Java">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-light border rounded text-center">
+                            <h2>Laravel</h2>
+                            <img class="img-fluid w-50" src="https://laravelnews.s3.amazonaws.com/images/laravel-featured.png" alt="Laravel">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-light border rounded text-center">
+                            <h2>.Net</h2>
+                            <img class="img-fluid w-50" src="https://kodigowebstorage.blob.core.windows.net/kodigowebsite/2023/08/dotNET.png" alt=".Net">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-light border rounded text-center">
+                            <h2>JavaScript</h2>
+                            <img class="img-fluid w-50" src="https://codigojavascript.online/wp-content/uploads/2022/04/javascript.png" alt="JavaScript">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-light border rounded text-center">
+                            <h2>SQL</h2>
+                            <img class="img-fluid w-50" src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315&ssl=1" alt="SQL">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-light border rounded text-center">
+                            <h2>C++</h2>
+                            <img class="img-fluid w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYlRhZ9q1WopmD3kxjy_-jq9k5rLP0Q_-WA&s" alt="C++">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-4">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/saulUcenfotec" target="_blank" class="mx-3" style="color: #ffff;">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saul-rojas-39821330a" target="_blank" class="mx-3" style="color: #0077b5;">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://wa.me/72079045" target="_blank" class="mx-3" style="color: #25d366;">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                    <a href="mailto:saulrojesc55@gmail.com" class="mx-3" style="color: #ea4335;">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- Fin del Footer -->
+    
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
+    <!-- Bootstrap JS y AOS Animation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
